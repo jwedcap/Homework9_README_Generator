@@ -86,7 +86,7 @@ function licenseSelection(license) {
 //Generates Markdown with input values from questions
 function Markdown(input) {
     return `
-#License
+# License
 ${licenseSelection(input.license)}
 # ${input.projectTitle}       
 # Description
